@@ -2,6 +2,10 @@
 
 ## Model Editing Using Coded Values and Functional Alignment
 
+Questions:
+Are there any awards available for Msc final papers? 
+Can I write blog posts and submit Independent research route? 
+
 ---
 
 ## The Central Question
