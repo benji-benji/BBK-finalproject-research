@@ -2,6 +2,9 @@
 
 A categorised, annotated bibliography for this project. Papers marked **[PRIORITY]** should be read in Phase 1–2. Papers marked **[⚠️ VERIFY]** should have their details confirmed against the actual published version before citing in the proposal.
 
+Power Play Hubershmid 
+https://arxiv.org/abs/1112.5309
+
 ---
 
 ## Category 1 — Mechanistic Interpretability
