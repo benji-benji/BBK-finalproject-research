@@ -182,6 +182,7 @@
   },
   "active": "c0b63dd5f8273aea",
   "lastOpenFiles": [
+    "docs/timeline/gantt.md",
     "docs/timeline/kanban.md",
     "docs/timeline/countdown.md",
     "docs/timeline/workstreams.md",
@@ -213,7 +214,6 @@
     "2026-03-31.md",
     "2026-04-02.md",
     "docs/Secondary Objective/Model editing to effect global preference.md",
-    "docs/timeline.md",
     "papers/ROME.pdf",
     "papers/Editing Factual Knowledge in Language Models.pdf",
     "briefing/Successful example proposals/Detecting change in Satellite Earth Observation images of the South China Sea using Deep Learning and Computer Vision.pdf",
