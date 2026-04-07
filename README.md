@@ -11,6 +11,18 @@ Comparing three model editing methods (ROME, MEMIT, GRACE) on standard knowledge
 
 ---
 
+
+## TODO: This Week (w/c 7 April)
+
+| Day | Task | Done? |
+|---|---|---|
+| Tue 8 Apr | ROME — full day code read-through at Space4. Annotate key functions, tensor shapes, hooks, transformer layer manipulation | [ ] |
+| Sat 12 Apr | ROME — implement on GPT-2, run first CounterFact edit, capture pre/post outputs | [ ] |
+| Sun 13 Apr | ROME — evaluate (efficacy, specificity, generalisation, perplexity), log EXP-001 | [ ] |
+
+**Goal by Sunday:** ROME working on GPT-2 with a logged experiment. Milestone M1 complete.
+
+
 ## Repository Structure
 
 ### Docs
@@ -43,6 +55,8 @@ Comparing three model editing methods (ROME, MEMIT, GRACE) on standard knowledge
 | [lit_reviews/](lit_reviews/) | Literature review notes |
 | [lab_notes/](lab_notes/) | Experiment logs using [protocol template](lab_notes/experiment_protocol_template.md) |
 | [meetings/](meetings/) | Supervisor meeting notes |
+
+---
 
 ---
 
