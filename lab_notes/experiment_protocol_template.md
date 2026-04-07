@@ -1,7 +1,7 @@
 # Experiment Protocol Template
 
 Copy this file for each new experiment. Name the file: `EXP-[NNN]-[short-slug].md`
-e.g. `EXP-001-rome-codegen-efficiency-edit.md`
+e.g. `EXP-001-rome-gpt2-capital-city-edit.md`
 
 ---
 
@@ -33,16 +33,53 @@ YYYY-MM-DD
 
 ---
 
+## Implementation Overview
+
+**Project / script structure:**
+*Brief description of how the experiment code is organised.*
+
+```
+e.g.
+scripts/
+  run_edit.py       — applies the edit via EasyEdit
+  evaluate.py       — runs pre/post evaluation prompts
+  probe.py          — (optional) linear probe on activations
+data/
+  facts.json        — subject–relation–target triples
+```
+
+**Flowchart / diagram:**
+*Paste or link a diagram of the pipeline (ASCII, Mermaid, or image path).*
+
+```
+e.g. [load model] → [define fact triple] → [apply edit] → [evaluate] → [log artifacts]
+```
+
+**Key scripts and what they do:**
+
+| Script | Purpose |
+|---|---|
+| | |
+| | |
+
+---
+
 ## Edit Target
 
-**Value domain:** e.g. Efficiency vs. Readability
+**Knowledge association:**
 
-**Edit description:**
-*What is the model being edited to do/prefer? State the intended change precisely.*
+| Field | Value |
+|---|---|
+| **Subject** | e.g. `"The Eiffel Tower"` |
+| **Relation / attribute** | e.g. `"is located in"` |
+| **Original object** | e.g. `"Paris"` |
+| **Target object (post-edit)** | e.g. `"Rome"` |
 
-**Target subject/prompt template:**
+**Fact triple:** `(subject, relation, target_object)`
+
+**Prompt template used:**
 ```
-e.g. "Write a Python function that [task]. Prioritise [value]."
+e.g. "The Eiffel Tower is located in"
 ```
 
 **Target layer(s):** e.g. Layer 12 MLP
@@ -67,10 +104,9 @@ e.g. "Write a Python function that [task]. Prioritise [value]."
 
 | Metric | Score | Notes |
 |---|---|---|
-| Value alignment (target) | | e.g. readability rubric: 0–5 |
-| Value alignment (opposing) | | |
+| Target fact recall | | Does the model produce the original object? |
 | Perplexity (held-out set) | | |
-| Unrelated capability check | | e.g. does it still write correct code? |
+| Unrelated capability check | | e.g. unrelated fact still correct? |
 
 ---
 
@@ -103,25 +139,24 @@ e.g. num_grad_steps=20, lr=5e-4, v_lr=0.5, kl_factor=0.0625
 
 | Metric | Pre-edit | Post-edit | Delta | Notes |
 |---|---|---|---|---|
-| Efficacy (target input) | | | | Did the edit work? |
-| Specificity (unrelated inputs) | | | | Did other behaviour change? |
-| Generalisation (related inputs) | | | | Does it hold on similar prompts? |
+| Efficacy — target fact recalled | | | | Does the model now produce the target object? |
+| Specificity — unrelated facts | | | | Did unrelated knowledge change? |
+| Generalisation — paraphrase prompts | | | | Does the edit hold on rephrased queries? |
 | Fluency / Perplexity | | | | Did overall quality degrade? |
-| Value alignment (target direction) | | | | |
-| Value alignment (opposing direction) | | | | |
 
 ---
 
-## Representational Analysis (if applicable)
+## Artifacts
 
-*Linear probing / activation analysis on the edited model.*
+| Artifact | Path / Location | Description |
+|---|---|---|
+| Pre-edit output log | | Raw model outputs before edit |
+| Edit log | | Parameters, layers targeted, any warnings |
+| Post-edit output log | | Raw model outputs after edit |
+| Evaluation results | | Scored metrics (pre vs. post) |
+| Model checkpoint (if saved) | | |
 
-**Method used:** e.g. linear probe trained on pre/post activations at layer X
-
-**Findings:**
-- Did the target direction shift?
-- Is the shift localised to the edited layer(s) or distributed?
-- Any evidence of superposition / entanglement with other representations?
+*All artifacts should be saved under `artifacts/EXP-XXX/` and committed or noted in this file.*
 
 ---
 
@@ -133,7 +168,7 @@ e.g. num_grad_steps=20, lr=5e-4, v_lr=0.5, kl_factor=0.0625
 
 ## Failure Modes
 
-*Did the model collapse? Did it stop producing valid code? Did unrelated outputs degrade? Quantify where possible.*
+*Did the model collapse? Did unrelated outputs degrade? Did the edit fail to apply? Quantify where possible.*
 
 ---
 

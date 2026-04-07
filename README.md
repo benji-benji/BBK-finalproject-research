@@ -1,3 +1,13 @@
+TODO: 
+- [x] add all key docs to repo ( kernel etc)
+- [x] write up notes from Project meeting 1 & handwritten notes
+- [ ] summarise current plan and reading list in 1 pager ( based on structure of previous docs)
+- [ ] update all docs in the repo manually 
+- [ ] explain changes to Claude 
+- [ ] try to finish setting up ROME 
+- [ ] agree on tight timeline between now and deadline 
+- [ ] (submit draft to Dr. Chen with 14 days notice)
+
 # BBK Final Project Research
 
 Project Overview: Mechanistic Editing, Values, and Functional Alignment

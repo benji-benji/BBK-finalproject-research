@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "c1e5a8f27c9d4efa",
+    "type": "split",
+    "children": [
+      {
+        "id": "ace87c6ce37d5e78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0b63dd5f8273aea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Updated Final Project Plan - 23.03.26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Updated Final Project Plan - 23.03.26"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54718dd01677d856",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cc6c859bf22b4b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc93a0d534d26cb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "48ddbe90f2faf804",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ead1a65316d1698",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0d87d1e92d64c949",
+    "type": "split",
+    "children": [
+      {
+        "id": "c55cd670ed48a18e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1abead2b639ac50",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "af441b6bcd17e96b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "538012a000a0c5ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "98141e2908a01fde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b8967ea3e5ba1ec8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c0b63dd5f8273aea",
+  "lastOpenFiles": [
+    "docs/timeline/kanban.md",
+    "docs/timeline/countdown.md",
+    "docs/timeline/workstreams.md",
+    "docs/timeline/calendar_grid.md",
+    "docs/timeline/backcast.md",
+    "docs/timeline/README.md",
+    "docs/timeline",
+    "docs/archive/timeline_roadmap_ARCHIVED_2026-04-07.md",
+    "docs/archive/reading_list_ARCHIVED_2026-04-07.md",
+    "docs/archive/project_scope_ARCHIVED_2026-04-07.md",
+    "docs/archive/project_overview_ARCHIVED_2026-04-07.md",
+    "docs/archive",
+    "Proposal - Timeline - Sheet1.csv",
+    "briefing/MSc Briefing Slides_The Proposal_2025-26.pdf",
+    "ROME - notes.md",
+    "Updated Final Project Plan - 23.03.26.md",
+    "docs/Updated Final Project Plan - 23.03.26.md",
+    "meetings/Project meeting 1.md",
+    "meetings",
+    "learning logs/2026-04-02.md",
+    "learning logs/2026-03-31.md",
+    "learning logs/2026-03-30.md",
+    "learning logs/2026-03-23.md",
+    "learning logs",
+    "README.md",
+    "Project meeting 1.md",
+    "2026-03-23.md",
+    "2026-03-30.md",
+    "2026-03-31.md",
+    "2026-04-02.md",
+    "docs/Secondary Objective/Model editing to effect global preference.md",
+    "docs/timeline.md",
+    "papers/ROME.pdf",
+    "papers/Editing Factual Knowledge in Language Models.pdf",
+    "briefing/Successful example proposals/Detecting change in Satellite Earth Observation images of the South China Sea using Deep Learning and Computer Vision.pdf",
+    "briefing/Successful example proposals/Deep learning for fixed income portfolio optimisation.pdf"
+  ]
+}
