@@ -31,6 +31,10 @@ Planning backwards from deadline to today. Each milestone is placed by asking: "
    ▲
    │  need: shared utilities working (from ROME), GRACE paper read
    │
+21-23 APR ── RHIW working days: reading + GRACE prep or writing notes
+   ▲
+   │  3 full working days available during RHIW trip
+   │
 16-17 APR ── Literature review reading sessions  [M3]
    ▲
    │  need: ROME + MEMIT done (understand the territory from doing, not just reading)
@@ -53,9 +57,10 @@ Planning backwards from deadline to today. Each milestone is placed by asking: "
 1. **ROME first** because it's the foundational method — MEMIT extends it, and the utilities you build (hooks, layer access, evaluation) get reused
 2. **MEMIT second** because it shares ROME's infrastructure and the marginal effort is lower
 3. **Reading in week 2** because you understand the papers better after implementing — Dr. Chen's advice was to get into the authors' shoes
-4. **GRACE third** because it's architecturally different and benefits from having the other two as comparison points
-5. **Writing last** because every section draws on the experiments and reading — writing without them produces vague prose
-6. **Draft to Chen on 29 Apr** because CAMP (2-4 May) creates a hard wall — if you miss this window, there's no time for feedback
+4. **RHIW week (21-23 Apr)** gives you 3 full working days — use for remaining reading, GRACE prep, or early writing notes
+5. **GRACE after RHIW** because it's architecturally different and benefits from having the other two as comparison points
+6. **Writing last** because every section draws on the experiments and reading — writing without them produces vague prose
+7. **Draft to Chen on 29 Apr** because CAMP (2-4 May) creates a hard wall — if you miss this window, there's no time for feedback
 
 ---
 

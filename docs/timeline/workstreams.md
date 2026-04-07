@@ -10,13 +10,13 @@ Three parallel streams. Each stream has its own tasks, milestones, and checklist
 APR 7         APR 14         APR 21         APR 28         MAY 5      MAY 7
   │              │              │              │              │          │
   ├── CODE ──────┤──────────────┤──────────────┤              │          │
-  │ ROME         │ MEMIT        │    (RHIW)    │ GRACE        │          │
-  │ ████████████ │ ████████     │              │ ████         │          │
+  │ ROME         │ MEMIT        │  (RHIW prep) │ GRACE        │          │
+  │ ████████████ │ ████████     │  ░░░░        │ ████         │          │
   │         [M1] │    [M2]      │              │ [M4]         │          │
   │              │              │              │              │          │
-  │              ├── READING ───┤              │              │          │
-  │              │ ████████████ │              │              │          │
-  │              │         [M3] │              │              │          │
+  │              ├── READING ───┤──────────────┤              │          │
+  │              │ ████████████ │ ████████████ │              │          │
+  │              │         [M3] │ RHIW days    │              │          │
   │              │              │              │              │          │
   │              │              │              ├── WRITING ───┤──────────┤
   │              │              │              │ ████████████ │ ████     │
@@ -53,16 +53,17 @@ Read and take critical notes on all methods for the lit review section.
 
 | Task | Dates | Sessions | Output | Done? |
 |---|---|---|---|---|
-| ROME paper (already being read via code) | w/c 7 Apr | (overlaps with CODE) | Deep understanding from implementation | [ ] |
-| MEMIT paper | w/c 14 Apr | (overlaps with CODE) | Understanding of multi-layer approach | [ ] |
+| ROME paper (read via code) | w/c 7 Apr | (overlaps with CODE) | Deep understanding from implementation | [ ] |
+| MEMIT paper (read via code) | w/c 14 Apr | (overlaps with CODE) | Understanding of multi-layer approach | [ ] |
 | Knowledge Editing Survey | Wed 16 Apr | ½ day | Taxonomy of all methods, evaluation criteria | [ ] |
 | MEND + SERAC papers | Wed 16 Apr | (same session) | Notes on meta-learning and memory-based approaches | [ ] |
 | AnyEdit + remaining methods | Thu 17 Apr | ½ day | Notes on newer methods for lit review breadth | [ ] |
 | Open Problems in MI + Representation Engineering | Thu 17 Apr | (same session) | Framing for motivating question | [ ] |
-| GRACE paper | before 26 Apr | (before implementing) | Ready to implement | [ ] |
-| **[M3] READING COMPLETE** | **17 Apr** | | | [ ] |
+| **[M3] READING COMPLETE (core)** | **17 Apr** | | | [ ] |
+| GRACE paper | RHIW week (21-23 Apr) | 1 of 3 RHIW days | Ready to implement after RHIW | [ ] |
+| Deeper reading / remaining papers | RHIW week (21-23 Apr) | 2 of 3 RHIW days | Extended notes, activation steering papers, supporting material | [ ] |
 
-**Note:** ROME and MEMIT are read through code, not as separate reading sessions. The dedicated reading days (16-17 Apr) are for the methods you're NOT implementing.
+**Note:** ROME and MEMIT are read through code, not as separate reading sessions. The dedicated reading days (16-17 Apr) are for methods you're NOT implementing. RHIW gives you 3 full working days for deep reading and GRACE prep.
 
 ---
 

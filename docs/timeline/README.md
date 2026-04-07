@@ -3,7 +3,7 @@
 **Proposal Deadline:** 7 May 2026
 **Draft to Dr. Chen:** 29 April 2026
 **Today:** 7 April 2026
-**Working days remaining:** ~15 usable sessions
+**Working days remaining:** ~17 usable sessions (including 3 full days at RHIW)
 
 This is the single source of truth for the proposal timeline. All other documents in this folder are layout experiments — pick the one(s) that work for you and link back here for the facts.
 
@@ -64,8 +64,10 @@ This is the single source of truth for the proposal timeline. All other document
 
 | Dates | Reason |
 |---|---|
-| Most of w/c 21 Apr | RHIW (Mon-Wed), Reflective Practice Tool due (Fri) |
+| Fri 25 Apr | HarPA — Reflective Practice Tool due |
 | 2-4 May | CAMP + recovery |
+
+**Note:** RHIW week (21-23 Apr) provides 3 full working days for reading/prep — not a dead zone.
 
 ---
 
@@ -80,13 +82,16 @@ This is the single source of truth for the proposal timeline. All other document
 | 5 | 15 Apr | Tue | Space4 | Full day |
 | 6 | 16 Apr | Wed | Home | Half day |
 | 7 | 17 Apr | Thu | Home | Half day |
-| 8 | 26 Apr | Sat | Home | Half day+ |
-| 9 | 27 Apr | Sun | Home | Half day+ |
-| 10 | 28 Apr | Mon | Space4 | Full day |
-| 11 | 29 Apr | Tue | Space4 | Full day |
-| 12 | 5 May | Wed | Home | Half day |
-| 13 | 6 May | Thu | Home | Half day |
-| 14 | **7 May** | **Fri** | — | **SUBMIT** |
+| 8 | 21 Apr | Mon | RHIW | Full day |
+| 9 | 22 Apr | Tue | RHIW | Full day |
+| 10 | 23 Apr | Wed | RHIW | Full day |
+| 11 | 26 Apr | Sat | Home | Half day+ |
+| 12 | 27 Apr | Sun | Home | Half day+ |
+| 13 | 28 Apr | Mon | Space4 | Full day |
+| 14 | 29 Apr | Tue | Space4 | Full day |
+| 15 | 5 May | Wed | Home | Half day |
+| 16 | 6 May | Thu | Home | Half day |
+| 17 | **7 May** | **Fri** | — | **SUBMIT** |
 
 ---
 
@@ -109,8 +114,7 @@ Pick whichever view works best for day-to-day use. They all describe the same pl
 | Layout | File | Best for |
 |---|---|---|
 | A — Backcast | [backcast.md](backcast.md) | Seeing the logic of why each date was chosen |
-| B — Calendar Grid | [calendar_grid.md](calendar_grid.md) | Weekly overview at a glance |
-| C — Workstreams | [workstreams.md](workstreams.md) | Seeing how CODE / READING / WRITING overlap |
-| D — Countdown Checklist | [countdown.md](countdown.md) | Daily "what do I do next" with checkboxes |
-| E — Kanban Snapshots | [kanban.md](kanban.md) | Tracking task state (To Do / Doing / Done) |
-| F — Gantt + Milestones | [gantt.md](gantt.md) | Bird's-eye view of the whole timeline with dependencies |
+| B — Workstreams | [workstreams.md](workstreams.md) | Seeing how CODE / READING / WRITING overlap and converge |
+| C — Countdown Checklist | [countdown.md](countdown.md) | Daily "what do I do next" with checkboxes and running score |
+| D — Kanban | [kanban.md](kanban.md) | Living board — BACKLOG / DOING / DONE, updated as you work |
+| E — Gantt + Milestones | [gantt.md](gantt.md) | Bird's-eye view with dependency map and critical path |

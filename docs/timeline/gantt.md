@@ -7,30 +7,32 @@ Bird's-eye view. Each row is a task. Time flows left to right. Dependencies show
 ## Gantt Chart
 
 ```
-                    APR                                                    MAY
-        7    8    12   13   14   15   16   17         26   27   28   29         5    6    7
-        Mon  Tue  Sat  Sun  Mon  Tue  Wed  Thu        Sat  Sun  Mon  Tue        Wed  Thu  Fri
-        ─────────────────────────────────────  RHIW  ─────────────────── CAMP ──────────────
+                    APR                                                              MAY
+        7    8    12   13   14   15   16   17   21   22   23   26   27   28   29         5    6    7
+        Mon  Tue  Sat  Sun  Mon  Tue  Wed  Thu  Mon  Tue  Wed  Sat  Sun  Mon  Tue       Wed  Thu  Fri
+        ─────────────────────────────────────────────────────────────────────── CAMP ──────────────
 CODE
   ROME       ████ ████ ████                                                              
                        ◆M1                                                               
   MEMIT                     ████ ████                                                    
                                  ◆M2                                                     
-  GRACE                                               ████ ████                          
-                                                           ◆M4                           
+  GRACE                                                       ████ ████                  
+                                                                   ◆M4                   
 
 READING
   Core                 ░░░░ ░░░░ ░░░░ ░░░░                                               
   (via code)                                                                             
   Lit Review                          ████ ████                                          
                                            ◆M3                                           
+  RHIW deep                                      ████ ████ ████                          
+  reading                                                                                
 
 WRITING
-  Draft                                                    ████ ████                     
-                                                                ◆M5◆M6                   
-  Polish                                                             ████ ████           
-                                                                          ◆M7            
-  Submit                                                                       ◆M8      
+  Draft                                                            ████ ████             
+                                                                        ◆M5◆M6          
+  Polish                                                                     ████ ████  
+                                                                                  ◆M7   
+  Submit                                                                               ◆M8
 
 ████ = active work    ░░░░ = passive/overlapping    ◆ = milestone
 ```
@@ -54,7 +56,8 @@ WRITING
               │                     │
               │    ┌──────────┐     │
               │    │ READING  │     │
-              │    │  [M3]    │     │
+              │    │ [M3]     │     │
+              │    │ + RHIW   │     │
               │    └────┬─────┘     │
               │         │           │
               └─────────┼───────────┘
@@ -98,7 +101,7 @@ ROME [M1] → MEMIT [M2] → WRITE [M5] → SEND [M6] → POLISH [M7] → SUBMIT
 
 **GRACE [M4] is off the critical path** — it can slip without threatening the deadline, as long as the draft is still sent on 29 Apr. Worst case: report on ROME + MEMIT with GRACE as "in progress."
 
-**READING [M3] is off the critical path** — but feeds into the quality of the lit review section. Ideally done by 17 Apr, but notes can be supplemented during the writing days.
+**READING [M3] is off the critical path** — but feeds into the quality of the lit review section. Core reading by 17 Apr, with RHIW week (21-23 Apr) providing 3 full days for deeper reading and consolidation.
 
 ---
 

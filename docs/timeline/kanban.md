@@ -19,7 +19,9 @@ Personal Kanban with WIP limit of 2. Update this document as you work — move t
 | Read: MEND + SERAC | READING | M3 | 16 Apr |
 | Read: AnyEdit + remaining methods | READING | M3 | 17 Apr |
 | Read: Open Problems in MI + RepEng | READING | M3 | 17 Apr |
-| GRACE paper read | READING | — | before 26 Apr |
+| RHIW day 1: GRACE paper + activation steering | READING | — | 21 Apr |
+| RHIW day 2: remaining papers, deeper notes | READING | — | 22 Apr |
+| RHIW day 3: consolidate notes, outline proposal | READING/WRITING | — | 23 Apr |
 | GRACE code read + implementation | CODE | M4 | 26 Apr |
 | GRACE evaluate + log EXP-003 | CODE | M4 | 27 Apr |
 | Write: Introduction + Aims | WRITING | M5 | 28 Apr |
